@@ -1,3 +1,16 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Checking the Distance of two particles - FUNCTION             %
+%                                                               %
+% by Zoe Cras                                                   %
+%                                                               %
+% 14/3/2016                                                     %
+%                                                               %               
+% Example 9.1 Computational Physics, 2nd Edition, N, K Giordano %
+%                                                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 function [ r21, theta21, f21, a1x, a1y ] = distance( x1,y1,x2,y2 )
 
 m = 1;
