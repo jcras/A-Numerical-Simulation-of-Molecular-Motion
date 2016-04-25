@@ -16,18 +16,20 @@
 function [ r21, theta21, f21, a1x, a1y ] = loop( x1,y1,x2,y2 )
     %set initial values
     m = 1;
-    deltat=0.01;
-    xnew = 2;
-    ynew = 4;
+    deltat=0.02;
+   % xnew = 2
+    %ynew = 4
     xcurr = x1;
     ycurr = y1;
-    xprev = 2;
-    yprev = 4;
+    xprev = x1
+    yprev = y1
     
     plotpoints(xcurr,ycurr,x2,y2)
     
-        pause(1)
-for v = 1:5
+    pause(2)
+        
+        
+for v = 1:15
      
 
     %calculate distance between two particles
@@ -45,9 +47,9 @@ for v = 1:5
     a1y = (1/m * f21)*sin(theta21)
 
      %calculate new position 
-    xnew = (2*xcurr-xprev+a1x*(deltat))^2
-    ynew = (2*xcurr-yprev+a1y *(deltat))^2
-
+    xnew = (2*xcurr)-(xprev)+(f21)*(deltat^2)
+    ynew = (2*ycurr)-(yprev)+(f21)*(deltat^2)
+    
     %calculate new velocity
 
     vx = (xnew-xprev)/(2*deltat)
@@ -60,13 +62,13 @@ for v = 1:5
     %turn grid on
     grid on
     %set the axis - change this later
-    axis([0 6 0 6]);
+    axis([49 51 19 21]);
     %Name the graph
     title('Looping')
     xlabel('x')%xaxis label
     ylabel('y')%yaxis label
     hold off
-    pause(.5)
+    pause(.01)
         
      %periodic boundary condition
      
@@ -76,6 +78,12 @@ for v = 1:5
     yprev = ycurr
     xcurr = xnew
     ycurr = ynew
+    
+    
+    
+    
+    
     end
+    
 end
 

@@ -1,0 +1,70 @@
+ Num 1 
+ Distance 0.282843 
+ Angle  0.785398 
+ Force 647209864.975447 
+ Acceleration X 457646484.374973 
+ Accelaration Y 457646484.374964 
+ xnew 2.589819e+05 
+ Num 2 
+ Distance 366162.160190 
+ Angle  0.785336 
+ Force -0.000000 
+ Acceleration X -0.000000 
+ Accelaration Y -0.000000 
+ xnew 5.179139e+05 
+ Num 3 
+ Distance 732324.603224 
+ Angle  0.785336 
+ Force -0.000000 
+ Acceleration X -0.000000 
+ Accelaration Y -0.000000 
+ xnew 7.768458e+05 
+ Num 4 
+ Distance 1098487.046257 
+ Angle  0.785336 
+ Force -0.000000 
+ Acceleration X -0.000000 
+ Accelaration Y -0.000000 
+ xnew 1.035778e+06 
+ Num 5 
+ Distance 1464649.489290 
+ Angle  0.785336 
+ Force -0.000000 
+ Acceleration X -0.000000 
+ Accelaration Y -0.000000 
+ xnew 1.294710e+06 
+ Num 6 
+ Distance 1830811.932323 
+ Angle  0.785336 
+ Force -0.000000 
+ Acceleration X -0.000000 
+ Accelaration Y -0.000000 
+ xnew 1.553642e+06 
+ Num 7 
+ Distance 2196974.375356 
+ Angle  0.785336 
+ Force -0.000000 
+ Acceleration X -0.000000 
+ Accelaration Y -0.000000 
+ xnew 1.812574e+06 
+ Num 8 
+ Distance 2563136.818389 
+ Angle  0.785336 
+ Force -0.000000 
+ Acceleration X -0.000000 
+ Accelaration Y -0.000000 
+ xnew 2.071506e+06 
+ Num 9 
+ Distance 2929299.261422 
+ Angle  0.785336 
+ Force -0.000000 
+ Acceleration X -0.000000 
+ Accelaration Y -0.000000 
+ xnew 2.330438e+06 
+ Num 10 
+ Distance 3295461.704455 
+ Angle  0.785336 
+ Force -0.000000 
+ Acceleration X -0.000000 
+ Accelaration Y -0.000000 
+ xnew 2.589369e+06 
