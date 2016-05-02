@@ -74,7 +74,13 @@ for v = 1:10000
     hold off
     pause(.0000000000001)        
      %periodic boundary condition
+<<<<<<< HEAD
    
+=======
+    if x curr = 10
+        xcurr = 0
+    
+>>>>>>> b5eb843234dac5890855e918a4ff16e2c86dc3f3
     % update the particle postions. 
     xprev = xcurr;
     yprev = ycurr;
