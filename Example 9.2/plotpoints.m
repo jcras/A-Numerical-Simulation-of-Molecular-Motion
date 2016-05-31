@@ -7,7 +7,7 @@ function [] = plotpoints (xcurr,ycurr,x2,y2)
         %turn grid on
         grid on
         %set the axis - change this later
-        axis([490 510 490 510]);
+        axis([0 10 0 10]);
         %Name the graph
         title('Looping')
         xlabel('x')%xaxis label
@@ -16,7 +16,7 @@ function [] = plotpoints (xcurr,ycurr,x2,y2)
         %turn grid on
         grid on
         %set the axis - change this later
-        axis([490 510 490 510]);
+        axis([0 10 0 10]);
         %Name the graph
         title('Looping')
         xlabel('x')%xaxis label
